@@ -6,3 +6,4 @@ This is a serverless-portfolio which Uses AWS and ReactJS.
 
 Git and github
 SSH
+Brew
