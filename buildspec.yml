@@ -1,6 +1,6 @@
 version: 0.1
 
-phase:
+phases:
   build:
     commands:
       -echo Nothing to do yet
