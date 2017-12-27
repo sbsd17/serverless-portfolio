@@ -60,7 +60,7 @@
               type: name ? "success" : "error",
               body: name ? "Welcome to React, " + name : "You must enter a name!"
             }
-          })
+          });
         }
 
         render(){
@@ -80,7 +80,7 @@
       class MessageBox extends React.Component {
         render(){
           return (
-            <div className={"messageBox error " + (this.props.type || "hidden")}>
+            <div className={"messageBox " + (this.props.type || "hidden")}>
               {this.props.message}
             </div>
           )
