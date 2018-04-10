@@ -10,22 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sseukapd/serverless-portfolio.git"
+    "url": "git+https://github.com/sseukapd/serverless-portfolio.git"
   },
-  "author": "Steve Seukap <sseukapd@gmail.com>",
+  "author": "Steev S",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sseukapd/serverless-portfolio/issues"
   },
-  "homepage": "https://github.com/sseukapd/serverless-portfolio",
+  "homepage": "https://github.com/sseukapd/serverless-portfolio#readme",
   "dependencies": {
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-loader": "^7.1.4",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^3.8.1"
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
   }
 }
